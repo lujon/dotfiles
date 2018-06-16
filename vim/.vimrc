@@ -4,15 +4,15 @@ filetype off                  " required
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
-" plugin on GitHub repo
+
+Bundle 'dag/vim-fish'
+Bundle 'rhysd/committia.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
@@ -30,3 +30,12 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 
 set shell=/bin/bash
+
+syntax enable
+filetype plugin indent on
+
+" Set up :make to use fish for syntax checking.
+compiler fish
+
+" Set this to have long lines wrap inside comments.
+setlocal textwidth=79
