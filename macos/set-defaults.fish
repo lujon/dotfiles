@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/local/bin/fish
 
 # Sets reasonable macOS defaults.
 #
@@ -26,3 +26,4 @@ defaults write NSGlobalDomain InitialKeyRepeat -int 10
 defaults write com.apple.dock wvous-bl-corner -int 5
 defaults write com.apple.dock wvous-bl-modifier -int 0
 
+cp ~/.dotfiles/macos/fonts/* ~/Library/Fonts/
