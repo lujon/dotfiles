@@ -6,6 +6,7 @@ brew 'unrar'
 brew 'the_silver_searcher'
 brew 'python'
 brew 'git'
+brew 'mas'
 
 cask 'atom'
 cask 'google-chrome'
