@@ -1,0 +1,14 @@
+cask_args appdir: '/Applications'
+
+tap 'homebrew/bundle'
+
+brew 'unrar'
+brew 'the_silver_searcher'
+brew 'python'
+brew 'git'
+
+cask 'atom'
+cask 'google-chrome'
+cask 'vlc'
+cask 'spotify'
+cask 'java'
