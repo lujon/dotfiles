@@ -1,0 +1,7 @@
+[core]
+    	excludesfile = "~/.gitignore"
+    	editor = vim
+
+[user]
+	name = Ludvig Jonsson
+	email = github@ludvig.email
