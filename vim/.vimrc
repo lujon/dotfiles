@@ -39,3 +39,6 @@ compiler fish
 
 " Set this to have long lines wrap inside comments.
 setlocal textwidth=79
+
+" Allow backspace over insert start
+set backspace=indent,eol,start
