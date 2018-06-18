@@ -1,2 +1,5 @@
 # General MacOS ignores
 .DS_Store
+
+# fish
+fishd.*
